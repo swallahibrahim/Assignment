@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+
+	<style type="text/css">
+		
+		.header {
+			width: 100%;
+			height: 700px;
+			background-image: url('image/cj6.jpg');
+			background-size: cover;
+			background-position: 100% 100%;
+			background-repeat: no-repeat;
+			animation-name: slide;
+			animation-duration: 20s;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in-out;
+		}
+
+		@keyframes slide {
+			0% {
+				background-image: url('image/cj1.jpg');
+			}
+
+			25% {
+				background-image: url('image/cj2.jpg');
+			}
+
+			50% {
+				background-image: url('image/cj3.jpg');
+			}
+
+			75% {
+				background-image: url('image/cj4.jpg');
+			}
+
+				100% {
+				background-image: url('image/cj5.jpg');
+			}
+
+			
+		}
+
+		.nav {
+			display: flex;
+			justify-content: space-between;
+			background-color: grey;
+			margin-bottom: 5px;
+
+		}
+
+		.links ul {
+			display: flex;
+			list-style: none;
+		}
+
+		.links ul li {
+			padding-right: 30px;
+		}
+
+		.links ul li a {
+			text-decoration: none;
+			color: white;
+			font-size: 25px;
+			font-weight: bold;
+		}
+
+		.links ul li button {
+			background-color: transparent;
+			border: solid 2px beige;
+			padding: 0px 20px;
+			border-radius: 30px;
+			color: white;
+			font-size: 20px;
+
+		}
+
+		.logo {
+			color: white;
+			padding-left: 20px;
+		}
+
+
+		 .links ul .active {
+			text-decoration: none;
+			border-bottom: 2px goldenrod;
+			border-top: ;
+			padding-bottom: 5px;
+			color: goldenrod;
+			font-size: 25px;
+			font-weight: bold;
+		}
+		.header{
+			position: relative;
+
+		}
+
+		.title{
+			position: absolute;
+			width: 500px;
+			height: 300px;
+			background-color: rgba(0, 0, 0, .3);
+			padding: 10px;
+		}
+        
+
+        button {
+                
+               }
+
+	</style>
+</head>
+<body>
+		<div class="nav">
+		<div class="logo"><h2>Logo</h2></div>
+		<div class="links">
+			<ul>
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#"> Skills</a></li>
+				<li><a href="#">Introduction</a></li>
+				<li><a href="#"> Service</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><button>Visit Us</button></li>
+			</ul>
+		</div>
+	</div>
+
+<div class="header">
+	<div class="title"><h2>Story Behind Building</h2>
+		<p>In his wonderful book, The Secret Lives of Buildings, Edward Hollis says “Venice is a transfigured Constantinople, but Constantinople was a transfigured Rome once upon a time, and Rome was a transfigured Greece before that.” In the dark ages, stealing and reusing parts from old buildings was a common practice. However, in the case of St. Mark’s Basilica, it was more than just walls and antiques, it was St. Mark himself.St. Mark the Evangelist was a preacher in North Africa and the founder of the Church of Alexandria. His body was kept in a sanctuary in Alexandria for 7 centuries until two merchants from Venice stole it. On the pretense of saving the apostle’s body from the Muslim Arab governor, the merchants sneaked out the body by hiding it under pork meat. On their trip back to Venice, they were saved from drowning by the “miracle” of St.</p>
+<br>
+  <a href="#"><button>SUBMIT</button></a>
+		
+	</div>	
+
+</div>
+
+
+</body>
+</html>
